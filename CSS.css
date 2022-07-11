@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Oswald:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #7e997b;
+    height: 4000px;
+}
+
+.centerBackground {
+    position: absolute;
+    height: 4000px;
+    width: 75%;
+    left: 50%;
+    top: 500px;
+    transform: translate(-50%);
+    background-color: rgb(181, 187, 139, 0.95);
+}
+
+.titleImageArea {
+    position: fixed;
+    top: 0;
+    width: 75%;
+    height: 500px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.titleImage {
+    height: 100%;
+    width: 100%;
+}
+
+.titleImageOverBox {
+    position: absolute;
+    height: 300px;
+    width: 55%;
+    background-color: hsla(38, 69%, 49%, 0.95);
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 15px;
+}
+.arrow:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-top: solid 50px hsla(38, 69%, 49%, 0.95);
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+}
+.arrowBlue:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-top: solid 50px rgb(79, 130, 173, 0.5);
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+}
+.titleBoxTitle {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 60px;
+    font-family: Oswald;
+    white-space: nowrap;
+}
+.titleBoxText {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 25%;
+    font-size: 35px;
+    font-family: Edu TAS Beginner;
+    white-space: nowrap;
+}
+
+.trenchesBackground {
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    top: 50vh;
+    left: 0;
+    background-image: url("images/trenches.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+.trenchesTopLeft {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 35%;
+    width: 40%;
+    background-color: rgb(79, 130, 173, 0.5);
+    border-radius: 20px;
+    margin: 1%
+}
+.trenchesBottomRight {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 68%;
+    width: 35%;
+    background-color: rgb(79, 130, 173, 0.5);
+    border-radius: 20px;
+    margin: 1%
+}
+.cardTitle {
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    margin: 1%;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: Oswald;
+}
+.cardTextSmall {
+    font-size: 1vw;
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%);
+    font-family: Edu TAS Beginner;
+}
+.cardTextBig {
+    font-size: 1.25vw;
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    font-family: Edu TAS Beginner;
+}
