@@ -15,7 +15,7 @@ body {
     height: 4000px;
     width: 75%;
     left: 50%;
-    top: 500px;
+    top: 45vh;
     transform: translate(-50%);
     background-color: rgb(181, 187, 139, 0.95);
 }
@@ -24,7 +24,7 @@ body {
     position: fixed;
     top: 0;
     width: 75%;
-    height: 500px;
+    height: 45vh;
     left: 50%;
     transform: translate(-50%);
 }
@@ -90,7 +90,7 @@ body {
     position: absolute;
     height: 1000px;
     width: 100%;
-    top: 50vh;
+    top: 55vh;
     left: 0;
     background-image: url("images/trenches.png");
     background-repeat: no-repeat;
@@ -127,12 +127,12 @@ body {
     font-family: Oswald;
 }
 .cardTextSmall {
-    font-size: 1vw;
+    font-size: 1.2vw;
     position: absolute;
     width: 90%;
     left: 50%;
-    bottom: 10%;
-    transform: translate(-50%);
+    top: 60%;
+    transform: translate(-50%, -50%);
     font-family: Edu TAS Beginner;
 }
 .cardTextBig {
