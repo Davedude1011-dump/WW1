@@ -67,6 +67,18 @@ body {
     border-left: solid 50px transparent;
     border-right: solid 50px transparent;
 }
+.arrowBlueTop:after {
+    content:'';
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-bottom: solid 50px rgb(79, 130, 173, 0.5);
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+}
 .titleBoxTitle {
     position: absolute;
     top: 5%;
@@ -136,7 +148,7 @@ body {
     font-family: Edu TAS Beginner;
 }
 .cardTextBig {
-    font-size: 1.25vw;
+    font-size: 1.2vw;
     position: absolute;
     width: 90%;
     left: 50%;
@@ -145,9 +157,37 @@ body {
     font-family: Edu TAS Beginner;
 }
 
+
+.tanksBackground {
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    top: 45%;
+    left: 0;
+}
 .tank {
     position: absolute;
     width :100%;
-    top: 45%;
-    height: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.tanksTopLeft {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 30%;
+    width: 70%;
+    background-color: rgb(79, 130, 173, 0.5);
+    border-radius: 20px;
+    margin: 1%
+}
+.tanksBottomRight {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 30%;
+    width: 70%;
+    background-color: rgb(79, 130, 173, 0.5);
+    border-radius: 20px;
+    margin: 1%
 }
