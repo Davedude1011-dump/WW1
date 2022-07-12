@@ -15,9 +15,10 @@ body {
     height: 4550px;
     width: 75%;
     left: 50%;
-    top: 45vh;
+    top: 40vh;
     transform: translate(-50%);
-    background-color: rgb(181, 187, 139, 0.95);
+    background-image: linear-gradient(transparent 0% 0%, rgb(181, 187, 139, 0.95) 1% 100%);
+    box-shadow: 6px 0 15px -4px rgba(0, 0, 0, 0.8), -6px 0 8px -4px rgba(0, 0, 0, 0.8);
 }
 
 .titleImageArea {
@@ -27,6 +28,7 @@ body {
     height: 45vh;
     left: 50%;
     transform: translate(-50%);
+    box-shadow: 3px 0 15px -4px rgba(0, 0, 0, 0.8), -3px 0 8px -4px rgba(0, 0, 0, 0.8);
 }
 .titleImage {
     height: 100%;
