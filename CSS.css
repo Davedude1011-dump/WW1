@@ -7,12 +7,12 @@
 
 body {
     background-color: #7e997b;
-    height: 4000px;
+    height: 4500px;
 }
 
 .centerBackground {
     position: absolute;
-    height: 4000px;
+    height: 4550px;
     width: 75%;
     left: 50%;
     top: 45vh;
@@ -138,8 +138,8 @@ body {
     transform: translate(-50%);
     font-family: Oswald;
 }
-.cardTextSmall {
-    font-size: 1.2vw;
+.cardTextSmaller {
+    font-size: 1.05vw;
     position: absolute;
     width: 90%;
     left: 50%;
@@ -162,7 +162,7 @@ body {
     position: absolute;
     height: 1000px;
     width: 100%;
-    top: 45%;
+    top: 170vh;
     left: 0;
 }
 .tank {
@@ -173,6 +173,7 @@ body {
 }
 .tanksTopLeft {
     position: absolute;
+    font-size: 1.2vw;
     left: 0;
     top: 0;
     height: 30%;
@@ -190,4 +191,86 @@ body {
     background-color: rgb(79, 130, 173, 0.5);
     border-radius: 20px;
     margin: 1%
+}
+
+
+.medicineBackground {
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    top: 280vh;
+    left: 0;
+}
+.medicineText {
+    position: absolute;
+    left: 49%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
+    width: 60%;
+    background-color: rgb(79, 130, 173, 0.5);
+    border-radius: 20px;
+    margin: 1%
+}
+.medicineTopLeft {
+    position: absolute;
+    height: 30%;
+    width: 25%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.medicineBottomRight {
+    position: absolute;
+    height: 30%;
+    width: 25%;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.poppyBackground {
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    top: 360vh;
+}
+.poppyText {
+    position: absolute;
+    left: 49%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
+    width: 60%;
+    margin: 1%;
+    background-color: rgb(79, 130, 173, 0.5);
+    border-radius: 20px;
+    margin: 1%
+}
+.poppyTopLeft {
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    top: 5%;
+    left: 1%;
+    animation: spin 15s linear infinite;
+}
+.poppyTopRight {
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    top: 5%;
+    right: 1%;
+    animation: spin 15s linear infinite;
+}
+
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
