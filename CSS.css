@@ -170,6 +170,7 @@ body {
     width :100%;
     top: 50%;
     transform: translateY(-50%);
+    border-bottom: rgb(87, 42, 18) 5px solid;
 }
 .tanksTopLeft {
     position: absolute;
