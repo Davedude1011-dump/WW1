@@ -7,12 +7,12 @@
 
 body {
     background-color: #7e997b;
-    height: 4500px;
+    height: 5200px;
 }
 
 .centerBackground {
     position: absolute;
-    height: 4550px;
+    height: 5250px;
     width: 75%;
     left: 50%;
     top: 40vh;
@@ -65,7 +65,7 @@ body {
     margin-left: -50px;
     width: 0;
     height: 0;
-    border-top: solid 50px rgb(79, 130, 173, 0.5);
+    border-top: solid 50px #4f82ad80;
     border-left: solid 50px transparent;
     border-right: solid 50px transparent;
 }
@@ -276,4 +276,31 @@ body {
     to {
         transform:rotate(360deg);
     }
+}
+
+
+
+
+.countriesBackground {
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    top: 460vh;
+    left: 0;
+}
+.countriesText {
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
+    width: 60%;
+    margin: 1%;
+    background-color: rgb(79, 130, 173, 0.5);
+    border-radius: 20px;
+    margin: 1%
+}
+.england {
+    height: 100%;
+    width: 50%
 }
