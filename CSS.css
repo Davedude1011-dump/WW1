@@ -7,12 +7,12 @@
 
 body {
     background-color: #7e997b;
-    height: 5200px;
+    height: 5700px;
 }
 
 .centerBackground {
     position: absolute;
-    height: 5250px;
+    height: 6050px;
     width: 75%;
     left: 50%;
     top: 40vh;
@@ -137,6 +137,17 @@ body {
     position: absolute;
     margin: 1%;
     left: 50%;
+    transform: translate(-50%);
+    font-family: Oswald;
+}
+
+.cardTitleUp {
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    margin: 1%;
+    left: 50%;
+    top: -5%;
     transform: translate(-50%);
     font-family: Oswald;
 }
@@ -285,7 +296,7 @@ body {
     position: absolute;
     height: 500px;
     width: 100%;
-    top: 460vh;
+    top: 470vh;
     left: 0;
 }
 .countriesText {
@@ -293,7 +304,7 @@ body {
     left: 60%;
     top: 50%;
     transform: translate(-50%, -50%);
-    height: 50%;
+    height: 80%;
     width: 60%;
     margin: 1%;
     background-color: rgb(79, 130, 173, 0.5);
